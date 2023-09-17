@@ -7,7 +7,7 @@ The project aims to create a data warehouse that will enable the company to gene
 a- MyDimDate: Design the dimension table for date-related data.
 ![1-DimDate](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/279d1d08-e74c-428f-b9da-d71564377bcc)
 b- MyDimWaste: Design the dimension table for waste-related data.
-
+![2-DimWaste](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/eabe85ea-886e-43fa-97fb-5e7d1cf3b2f1)
 c- MyDimZone: Design the dimension table for zone-related data. 
 
 d- MyFactTrips: Design the fact table to store trip-related data. 
