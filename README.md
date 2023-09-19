@@ -35,24 +35,49 @@ Creation of MyDimZone dimension table.
 
 Create of MyFactTrips fact table.
 
-![Uploading 8-FactTripsQuery.PNG…]()
+![8-FactTripsQuery](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/7b824dd0-6db8-4bfd-ae4a-2dfbe26810a9)
+
 
 3rd Stage: Data Loading
-Load data into the DimDate dimension table. 
-Load data into the dimension table DimTruck. 
-Load data into the dimension table DimStation. 
-Load data into the fact table FactTrips. 
+Load data into the DimDate dimension. 
 
-Query Development
+![9-DimDateData](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/9250e6e6-5c47-4676-a5aa-55130d960fef)
+
+Load data into the dimension DimTruck. 
+
+![10-DimWasteData](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/b9859182-3a72-4fae-a62e-f00bf50e93e6)
+
+Load data into the dimension DimStation. 
+
+![11-DimStationData](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/0159abba-11d6-435f-8eb8-d5f418569f26)
+
+Load data into the fact FactTrips. 
+
+![12-FactTripsDatat](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/3975c07e-08be-40d3-876b-2dd75a055ceb)
+
+4th Stage: Query the data using postgree SQL to extract the most used aggregations for analytics and reporting
+
 Create a grouping sets query.
+
+![13-GroupingSets](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/b4e44df8-546a-4ac0-a919-fe61f1e87133)
+
 Create a rollup query. 
+
+![14-Rollup](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/39c3c974-c2ce-4394-b037-9b0edb64809e)
+
 Create a cube query using columns year, city, station, and average waste collected. 
+
+![15-cube](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/29044d15-9877-4739-b72f-f46c3264cdbf)
+
 Create an MQT (Materialized Query Table) named max_waste_per_station using columns city, station, truck type, and max waste collected. 
-Dashboard Visualization
-Create a pie chart in the dashboard. 
-Create a bar chart in the dashboard. 
-Create a line chart in the dashboard. 
-Create a pie chart in the dashboard. 
+
+![16-MQT Data](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/5665c204-a5c2-4019-b00d-69ee530923eb)
+
+The Final Dashboard using Cognos Analytics
+
+![photo_2023-09-19_18-00-36](https://github.com/Ataa55/WasteManagmentDWHAndAnalytics/assets/115408306/a3e57ffd-db43-4c8d-96b6-0cbb8f7dfbb8)
+
+ 
 
 
 
