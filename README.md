@@ -1,5 +1,5 @@
 # WasteManagmentDWHAndAnalytics
-This project is the final project of IBN course "Getting started with Data Warehousing and BI Analytics"
+This project is the final project of IBM course "Getting started with Data Warehousing and BI Analytics"
 In This repository contains the code and documentation for the Solid Waste Management Data Warehouse project.
 The project aims to create a data warehouse that will enable the company to generate various reports related to waste collection and recycling operations across major cities in Brazil.
 
